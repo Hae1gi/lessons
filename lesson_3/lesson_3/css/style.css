@@ -1,0 +1,31 @@
+div.header-container {
+	color: coral;
+}
+.gray {
+	color: gray;
+}
+#foto1906 {
+	color: red;
+}
+div.black{
+	color: black;
+}
+.chocolate + p{
+	color: chocolate;
+}
+.brown ~ p{
+	color: brown;
+}
+.purple > span {
+	color: purple;
+}
+.green * {
+	color: green;
+}
+
+.footer-container .copy {
+	color: darkblue;
+}
+
+
+
