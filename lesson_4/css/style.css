@@ -1,0 +1,129 @@
+/* Шрифты импорт из Google*/
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Шрифты из папки fonts */
+/* Larsseit */
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+/* Lato */
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+
+/*! CSS Стили общие*/
+
+.body {
+	font-family: "Lato";
+	font-weight: 400;
+}
+h1,
+h2 {
+	font-weight: 900;
+}
+
+h3 {
+	font-family: "Roboto";
+	font-weight: 700;
+}
+
+a,
+li {
+	font-family: "Larsseit";
+	font-weight: 400;
+}
+
+/* !header */
+.header-title {
+	color: rebeccapurple;
+}
+
+div li {
+	color: green;
+}
+
+h2 span {
+	color: teal;
+}
+
+/* !header end */
+
+/* !main */
+
+/* toxic-chief */
+
+div p {
+	color: violet;
+}
+
+
+/* types-of-bosses */
+
+h3 ~ p {
+	color: olivedrab;
+}
+
+
+
+/* signs-of-toxicity */
+
+.signs-of-toxicity > h2 {
+	font-weight: 700;
+	color: midnightblue;
+}
+
+
+
+/* prospects */
+
+.prospects * {
+	font-family: "Larsseit";
+	color: gray;
+}
+
+/* what-to-do */
+.what-to-do-title + p {
+	font-weight: 700;
+	color: tomato;
+}
+
+.wheat {
+	color: wheat;
+}
+
+/* !main end  */
+
+
+/* !footer */
+
+.footer-container a {
+	color: steelblue;
+}
+
+/* !footer end */
