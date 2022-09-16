@@ -1,0 +1,155 @@
+/* Шрифты импорт из Google*/
+/* Jura */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+
+/* Шрифты из папки fonts */
+/* ClearSans */
+@font-face {
+	font-family: "ClearSans";
+	src: url("../fonts/ClearSans-Regular.woff2") format("woff2"), url("../fonts/ClearSans-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "ClearSans";
+	src: url("../fonts/ClearSans-Italic.woff2") format("woff2"), url("../fonts/ClearSans-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "ClearSans";
+	src: url("../fonts/ClearSans-Medium.woff2") format("woff2"), url("../fonts/ClearSans-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "ClearSans";
+	src: url("../fonts/ClearSans-Bold.woff2") format("woff2"), url("../fonts/ClearSans-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+/*  */
+@font-face {
+	font-family: "RubikWetPaint";
+	src: url("../fonts/RubikWetPaint-Regular.woff2") format("woff2"), url("../fonts/RubikWetPaint-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+
+/*! CSS Стили общие*/
+
+body {
+	font-family: "ClearSans", sans-serif;
+}
+img {
+	width: 100%;
+	padding: 0px 250px 0;
+}
+
+/* !header */
+
+.header-container {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-family: "RubikWetPaint";
+	font-size: 25px;
+	color: rgba(246, 10, 10, 0.738);
+	text-transform: uppercase;
+	line-height: 1.2;
+	letter-spacing: 5px;
+}
+
+li {
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(211, 64, 64, 0.518);
+	text-transform: capitalize;
+	line-height: 1.5;
+}
+
+.header-attachment {
+	padding-left: 50%;
+}
+
+.header-attachment li {
+	font-size: 12px;
+	color: rgba(249, 0, 0, 0.816);
+	text-align: left;
+	text-decoration: overline;
+}
+
+.seventh-circle div {
+	padding-left: 150px;
+}
+
+
+/* !header end */
+
+/* !main */
+main {
+	word-spacing: 3px;
+}
+
+.main-container > div {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+h3 {
+	font-family: Jura;
+	color: #e8160f;
+	word-spacing: 13px;
+}
+div p {
+	color: #3b3a4b;
+	line-height: 1.2;
+	text-indent: 10px;
+	margin-bottom: 40px;
+	text-shadow: 10px 5px 20px #3b3a4b;
+}
+.title ~ a {
+	margin-bottom: 40px;
+	font-style: italic;
+	font-size: 10px;
+	text-transform: lowercase;
+	text-decoration: line-through;
+}
+.belt * {
+	font-size: 20px;
+}
+
+.belt > p {
+	color: #201e3f;
+}
+
+/* !main end  */
+
+
+/* !footer */
+
+.footer-container {
+	font-size: 100px;
+	font-weight: 700;
+	color: #5f55ea;
+	text-align: center;
+}
+
+/* !footer end */
