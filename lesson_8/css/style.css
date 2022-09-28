@@ -1,0 +1,405 @@
+/* Шрифты импорт из Google*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+
+
+/*! CSS Стили общие*/
+[class*="-container"] {
+	margin: 0 auto;
+	max-width: 1230px;
+}
+
+/* !header */
+.header {
+	margin-bottom: 120px;
+	background-color: rgba(163, 155, 140, 0.895);	
+}
+.header-container {
+	min-height: 25px;
+	background-color: rgba(185, 178, 232, 0.863);
+}
+/* !header end */
+
+/* !main */
+
+.main {
+	font-family: "Lato", sans-serif;
+	line-height: 1.6;
+	color: #424551;
+}
+/* about-of-course */
+.about-of-course {
+	margin-bottom: 180px;
+}
+.about-block-left {
+	max-width: 600px;
+}
+.about-block-left > h2 {
+	margin-bottom: 40px;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	color: #1E212C;
+}
+.about-text p { 
+	margin-bottom: 48px;
+}
+.about-text h2 { 
+	margin-bottom: 24px;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1E212C;
+}
+.about-text ul {
+	margin-bottom: 40px;
+}
+/* background */
+.about-text .about-bg-item {
+	padding-left: 32px;
+	background: url("../img/vector.svg") 0 5px / 16px no-repeat;
+}
+/* background END */
+
+/* before */
+.about-text .about-bf-item {
+	padding-left: 32px;
+}
+
+.about-bf-item::before {
+	content: "";
+	display: inline-block;
+	margin: 0 16px 0 -32px;
+	vertical-align: -3px;
+	width: 16px;
+	height: 16px;
+	background: url("../img/vector.svg") 0 0/ 16px no-repeat;
+}
+/* before END */
+.about-text li:not(:last-child) {
+	margin-bottom: 4px;
+}
+.about-text > *:last-child {
+	margin-bottom: 0;
+}
+
+.about-block-left > *:last-child {
+	margin-bottom: 0;
+}
+
+/* about-of-course END */
+
+/* course-curator */
+.course-head {
+	line-height: 1.5;
+	color: #1E212C;
+	margin-bottom: 32px;
+}
+.course-head h2 {
+	margin-bottom: 8px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.course-head h1 {
+	margin-bottom: 16px;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+}
+.course-head p {
+	font-size: 20px;
+	color: #787A80;
+}
+.course-head > *:last-child {
+	margin-bottom: 0;
+}
+.course-list-bg,
+.course-list-bf {
+	margin-bottom: 32px;
+	font-weight: 700;
+	line-height: 1.6;
+}
+.course-list-bg li {
+	padding-left: 24px;
+	
+}
+/* background */
+.course-list-rate-bg {
+	background: url('../img/rate.svg') 0 5px / 16px no-repeat;
+}
+.course-list-courses-bg {
+	background: url('../img/courses.svg') 0 5px / 16px no-repeat;
+}
+.course-list-students-bg {
+	background: url('../img/students.svg') 1px 5px no-repeat;
+}
+.course-list-bg li:not(:last-child) {
+	margin-bottom: 4px;
+}
+/* background END */
+
+/* before обтекает */
+.course-list-rate-bf::before {
+	content: "";
+	display: inline-block;
+	margin-right: 8px;
+	vertical-align: -2px;
+	width: 16px;
+	height: 16px;
+	background: url("../img/rate.svg") 0 0/ 16px no-repeat;
+}
+.course-list-courses-bf::before {
+	content: "";
+	display: inline-block;
+	margin-right: 8px;
+	vertical-align: -2px;
+	width: 16px;
+	height: 16px;
+	background: url("../img/courses.svg") 0 0 no-repeat;
+}
+.course-list-students-bf::before {
+	content: "";
+	display: inline-block;
+	margin-right: 7px;
+	vertical-align: -2px;
+	width: 16px;
+	min-height: 16px;
+	background: url("../img/students.svg") 0 0 no-repeat;
+}
+.course-list-bf li:not(:last-child) {
+	margin-bottom: 4px;
+}
+/* before END */
+
+.course-curator > *:last-child {
+	margin-bottom: 0;
+}
+
+/* course-curator END */
+
+/* element */
+.element {
+	margin: 250px auto;
+	max-width: 1400px;
+}
+
+.inline {
+	margin: 0 0 100px 100px;
+	max-height: 35px;
+	display: inline-block;
+}
+
+
+
+/* *HOVER */
+/* *В ней есть баг но немогу его полечить.. гребаный стол живет свой жизнь.. */
+/* ?Кажется проблема во вложености..*/ 
+.review {
+	margin: 0 0 20px 100px;
+	font-size: 12px;
+	color: #424551;
+}
+.hover {
+	display: inline-block;
+	padding: 5px;
+	margin-right: 5px;
+	min-width: 80px;
+	color: #0cde55;
+	text-align: center;
+	background-color: rgba(130, 112, 209, 0.899);
+	border-radius: 16px;	
+	box-shadow: 0 10px 0 rgb(77, 30, 22);
+}
+.hover::before {
+	content: "(* ^ ω ^)";
+	text-align: center;
+	display: inline-block;
+}
+.hover a {
+	display: none;
+}
+
+/* Hover */
+.hover:hover {
+	margin-top: 5px;
+	color: #000000cd;
+	box-shadow: 0 5px 0 rgb(56, 12, 4);
+	background-color: rgba(107, 228, 56, 0.899);
+}
+.hover:hover::before {
+	content: "";
+	display: none;
+}
+.hover:hover::after {
+	content: "(╮° - ° )╮";
+	display: inline-block;
+}
+/* Hover END */
+
+/* Active */
+.hover:active {
+	margin-top: 8px;
+	color: #ff0000;
+	background-color: rgba(204, 48, 48, 0.689);
+	border-radius: 50%;	
+	box-shadow: 0 2px 0 rgb(77, 30, 22);
+}
+.hover:active a {
+	display: inline-block;
+}
+.hover:active::before {
+	content: "";
+	display: none;
+}
+.hover:active::after {
+	content: "";
+	display: none;
+}
+/* Active END */
+
+
+/* Table */
+.table {
+	display: none;
+}
+.table-over { 
+	opacity: 0;
+	visibility: hidden;
+}
+/* Table HOVER */
+.inline:hover .table {
+	display: inline-block;
+}
+/* Table HOVER END */
+
+/* Table ACTIVE */
+.inline:active .table-over {
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	opacity: 1;
+	visibility: visible;
+}
+.inline:active .table {
+	opacity: 0;
+	visibility: hidden;
+}
+/* Table ACTIVE END */
+
+
+
+
+
+/* game */
+.game {
+	margin-bottom: 150px;
+	padding: 40px;
+	min-height: 475px;
+	background-color: rgba(225, 133, 133, 0.701);
+}
+.game > *:not(:first-child){
+	opacity: 0;
+	visibility: hidden;
+}
+.game div:hover + div, .game div:hover {
+	opacity: 1;
+	visibility: visible;
+}
+[class*="-line"] {
+	background-color: #7f69a8;
+} 
+
+.start-line {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+} 
+
+.first-line {
+	margin-bottom: -90px;
+	width: 30px;
+	height: 120px;
+}
+.second-line {
+	margin-top: 60px;
+	width: 700px;
+	height: 30px;
+	border-radius: 0% 100% 100% 0% / 0% 37% 37% 100%;	
+}
+.third-line {
+	margin: -14px 0px 0px 680px;
+	width: 20px;
+	height: 250px;
+	border-radius: 0% 100% 100% 0% / 0% 1% 66% 100%;
+}
+.four-line {
+	margin: -21px 0px -252px 487px;
+	width: 200px;
+	height: 25px;
+	border-radius: 0% 44% 13% 0% / 0% 0% 45% 10%;
+}
+.finish-line {
+	margin: 227px 0px 0px 462px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	border-radius: 50%;
+}
+.finish-line:active {
+	background-color: #e71010;
+}
+
+/* game END */
+
+/* list */
+.list h2:first-child {
+	background-color: #0cde55;
+}
+.list *:last-child:hover {
+	background-color: #0cde55;
+	color: #1037e7;
+}
+
+.title { 
+	font-size: 20px;
+	text-indent: 10px;
+}
+/* Применить :first-letter Ко всем последним элементам с классом title т.e. в данном случае к h2 и h3 которые последние в блоке list */
+.title:last-of-type:first-letter {
+	font-size: 40px;
+}
+.list-first :nth-child(odd) {
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+.list-first :last-child { 
+	font-size: 25px;
+
+}
+.list-second :nth-child(even) {
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+.list-second li:last-of-type {
+	opacity: 0.2;
+}
+.list-three :nth-child(4) {
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+/* list END */
+/* !main end  */
+
+
+/* !footer */
+
+.footer {
+	background-color: rgba(241, 69, 69, 0.855);
+}
+.footer-container {
+	min-height: 70px;
+	background: url("../img/kale-salad.jpg") center repeat fixed;
+}
+
+/* !footer end */
