@@ -1,0 +1,388 @@
+/* Шрифты импорт из Google*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+/*! CSS Стили общие*/
+body {
+	overflow: hidden;
+}
+/* !header */
+
+/* !header end */
+
+/* !main */
+/* other main */
+.main {
+	font-family: "Cormorant Garamond", serif;
+	background-image: linear-gradient(146deg, #FBAB7E 0%, #F7CE68 28%, #ffffff 66%, #ffffff 100%);
+}
+.main-container {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+.main-container > div {
+	margin-bottom: 100px;
+	padding: 40px;
+	font-size: 20px;
+	line-height: 1.5;
+	border-radius: 30px;
+	background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.footer {
+	display: none;
+}
+.back {
+	margin-right: 943px;
+}
+.page-our .back {
+	margin-right: 927px;
+}
+.back a:hover {
+	color: #34084e;
+	text-shadow: 120px 0px 4px rgba(52, 8, 78, 0.675), 80px 0px 2px rgba(52, 8, 78, 0.675), 40px 0px 1px rgba(52, 8, 78, 0.675);
+}
+.back a::before { 
+	content: "";
+	display: inline-block;
+	margin-right: 10px;
+	height: 12px;
+	width: 18px;
+	vertical-align: -1px;
+	background: url('../img/line-left.svg') 0 0 no-repeat;
+}
+
+.next {
+	text-align: right;
+}
+.next a:hover {
+	color: #a200ff;
+	text-shadow: 14px -14px 3px rgba(162, 0, 255, 0.592), -14px 14px 3px rgba(162, 0, 255, 0.592), 7px -7px 1px rgba(162, 0, 255, 0.592), -7px 7px 1px rgba(162, 0, 255, 0.592);
+}
+.return a:hover {
+	color: #f30808;
+	text-shadow: none;
+}
+.next a::after {
+	content: "";
+	display: inline-block;
+	margin-left: 10px;
+	height: 12px;
+	width: 18px;
+	vertical-align: -1px;
+	background: url('../img/line-right.svg') 0 0 no-repeat;
+}
+
+.return a::after { 
+	content: "";
+	display: inline-block;
+	margin-left: 10px;
+	height: 18px;
+	width: 18px;
+	vertical-align: -4px;
+	background: url('../img/return.svg') 0 0 / 18px no-repeat;
+}
+
+.nav p {
+	display: inline-block;
+}
+
+li:hover:not(:last-child) {
+	text-decoration: underline;
+	font-weight: 700;
+}
+li:nth-child(-n+2) {
+	margin-right: 322px;
+}
+li:not(:last-child) {
+	display: inline-block;
+}
+.red {
+	color: #ff0000;
+}
+.blue {
+	color: #0000ff;
+}
+.green {
+	color: #77DD77;
+}
+/* other main END */
+
+
+/* page-first-header */
+.page-first-header .zero {
+	background: url('../img/page-first-header.jpg') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-first-header .content:hover ~ .zero {
+	background: url('../img/page-first-header-content.jpg') center / contain no-repeat;
+}
+.page-first-header .icon:hover ~ .zero {
+	background: url('../img/page-first-header-icon.jpg') center / contain no-repeat;
+}
+.page-first-header .design:hover ~ .zero {
+	background: url('../img/page-first-header-design.jpg') center / contain no-repeat;
+}
+/* page-first-header END */
+
+
+/* page-first-main */
+.page-first-main .zero {
+	background: url('../img/page-first-main.jpg') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-first-main .content:hover ~ .zero {
+	background: url('../img/page-first-main-content.jpg') center / contain no-repeat;
+}
+.page-first-main .icon:hover ~ .zero {
+	background: url('../img/page-first-main-icon.jpg') center / contain no-repeat;
+}
+.page-first-main .design:hover ~ .zero {
+	background: url('../img/page-first-main-design.jpg') center / contain no-repeat;
+}
+/* page-first-main END */
+
+
+/* page-first-main-our */
+.page-first-main-our .zero {
+	background: url('../img/page-first-main-our.jpg') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-first-main-our .content:hover ~ .zero {
+	background: url('../img/page-first-main-our-content.jpg') center / contain no-repeat;
+}
+.page-first-main-our .icon:hover ~ .zero {
+	background: url('../img/page-first-main-our-icon.jpg') center / contain no-repeat;
+}
+.page-first-main-our .design:hover ~ .zero {
+	background: url('../img/page-first-main-our-design.jpg') center / contain no-repeat;
+}
+/* page-first-main-our END */
+
+
+/* page-first-main-event */
+.page-first-main-event .zero {
+	background: url('../img/page-first-main-event.jpg') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-first-main-event .content:hover ~ .zero {
+	background: url('../img/page-first-main-event-not-found.jpg') center / contain no-repeat;
+}
+.page-first-main-event .icon:hover ~ .zero {
+	background: url('../img/page-first-main-event-not-found.jpg') center / contain no-repeat;
+}
+.page-first-main-event .design:hover ~ .zero {
+	background: url('../img/page-first-main-event-design.jpg') center / contain no-repeat;
+}
+/* page-first-main-event END */
+
+
+/* page-first-main-event */
+.page-first-main-meet .zero {
+	background: url('../img/page-first-main-meet.jpg') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-first-main-meet .content:hover ~ .zero {
+	background: url('../img/page-first-main-meet-content.jpg') center / contain no-repeat;
+}
+.page-first-main-meet .icon:hover ~ .zero {
+	background: url('../img/page-first-main-meet-icon.jpg') center / contain no-repeat;
+}
+.page-first-main-meet .design:hover ~ .zero {
+	background: url('../img/page-first-main-meet-design.jpg') center / contain no-repeat;
+}
+/* page-first-main-event END */
+
+
+/* page-first-main-testimonials */
+.page-first-main-testimonials .zero {
+	background: url('../img/page-first-main-testimonials.jpg') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-first-main-testimonials .content:hover ~ .zero {
+	background: url('../img/page-first-main-testimonials-content.jpg') center / contain no-repeat;
+}
+.page-first-main-testimonials .icon:hover ~ .zero {
+	background: url('../img/page-first-main-testimonials-icon.jpg') center / contain no-repeat;
+}
+.page-first-main-testimonials .design:hover ~ .zero {
+	background: url('../img/page-first-main-testimonials-design.jpg') center / contain no-repeat;
+}
+/* page-first-main-testimonials END */
+
+
+/* page-first-main-footer */
+.page-first-main-footer .zero {
+	background: url('../img/page-first-main-footer.jpg') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-first-main-footer .content:hover ~ .zero {
+	background: url('../img/page-first-main-footer-content.jpg') center / contain no-repeat;
+}
+.page-first-main-footer .icon:hover ~ .zero {
+	background: url('../img/page-first-main-footer-icon.jpg') center / contain no-repeat;
+}
+.page-first-main-footer .design:hover ~ .zero {
+	background: url('../img/page-first-main-footer-design.jpg') center / contain no-repeat;
+}
+/* page-first-main-footer END */
+
+
+/* page-speaker */
+.page-speaker .zero {
+	background: url('../img/page-speaker.webp') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-speaker .content:hover ~ .zero {
+	background: url('../img/page-speaker-content.webp') center / contain no-repeat;
+}
+.page-speaker .icon:hover ~ .zero::after {
+	content: "NOT FOUND ICON IN THIS PICTURES";
+	color: #0000ff;
+	font-size: 40px;
+	font-weight: 700;
+	text-shadow: 0px 60px 8px #0000ff, 0px 30px 4px #0000ff;
+	vertical-align: -232px ;
+	margin-left: 207px;
+}
+.page-speaker .design:hover ~ .zero {
+	background: url('../img/page-speaker-design.webp') center / contain no-repeat;
+}
+/* page-speaker END */
+
+
+/* page-form-sign */
+.page-form-sign .zero {
+	background: url('../img/page-form-sign.webp') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-form-sign .content:hover ~ .zero {
+	background: url('../img/page-form-sign-content.webp') center / contain no-repeat;
+}
+.page-form-sign .icon:hover ~ .zero {
+	background: url('../img/page-form-sign-icon.webp') center / contain no-repeat;
+}
+.page-form-sign .design:hover ~ .zero::after  {
+	content: "NOT FOUND DESIGN IN THIS PICTURES";
+	color: #77DD77;
+	font-size: 18px;
+	font-weight: 700;
+	text-shadow: 0px 36px 8px #77DD77, 0px 18px 4px #77DD77;
+	vertical-align: -152px ;
+	margin-left: 374px;
+}
+/* page-form-sign END */
+
+
+/* page-form */
+.page-form .zero {
+	background: url('../img/page-form.webp') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-form .content:hover ~ .zero {
+	background: url('../img/page-form-content.webp') center / contain no-repeat;
+}
+.page-form .icon:hover ~ .zero {
+	background: url('../img/page-form-icon.webp') center / contain no-repeat;
+}
+.page-form .design:hover ~ .zero {
+	background: url('../img/page-form-design.webp') center / contain no-repeat;
+}
+/* page-form END */
+
+
+/* page-hr */
+/* .page-hr .zero {
+	background: url('../img/page-hr.webp') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-hr .content:hover ~ .zero {
+	background: url('../img/page-hr-content.webp') center / contain no-repeat;
+}
+.page-hr .icon:hover ~ .zero {
+	background: url('../img/page-hr-icon.webp') center / contain no-repeat;
+}
+.page-hr .design:hover ~ .zero {
+	background: url('../img/not-found.png') center / contain no-repeat;
+} */
+
+.image {
+	max-height: 500px;
+	max-width: 735px;
+	margin: 0 auto;
+	overflow: auto;
+}
+picture img {
+	max-width: 100%;
+}
+
+.content:hover ~ .zero .page-hr-content {
+	display: block;
+}
+.content:hover ~ .zero .page {
+	display: none;
+}
+.icon:hover ~ .zero .page-hr-icon {
+	display: block;
+}
+.icon:hover ~ .zero .page {
+	display: none;
+}
+.design:hover ~ .zero .page-hr-design {
+	display: block;
+}
+.design:hover ~ .zero .page {
+	display: none;
+}
+.design:hover ~ .zero .image {
+	overflow: hidden;
+}
+.page-hr-content {
+	display: none;
+}
+.page-hr-icon {
+	display: none;
+}
+.page-hr-design {
+	display: none;
+}
+
+/* page-hr END */
+
+
+/* page-map */
+.page-map .zero {
+	background: url('../img/page-map.webp') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-map .content:hover ~ .zero {
+	background: url('../img/page-map-content.webp') center / contain no-repeat;
+}
+.page-map .icon:hover ~ .zero {
+	background: url('../img/page-map-icon.webp') center / contain no-repeat;
+}
+.page-map .design:hover ~ .zero {
+	background: url('../img/not-found.png') center / contain no-repeat;
+}
+/* page-map END */
+
+
+/* page-our */
+.page-our .zero {
+	background: url('../img/page-our.webp') center / contain no-repeat;
+	min-height: 500px;
+}
+.page-our .content:hover ~ .zero {
+	background: url('../img/page-our-content.webp') center / contain no-repeat;
+}
+.page-our .icon:hover ~ .zero {
+	background: url('../img/page-our-icon.webp') center / contain no-repeat;
+}
+.page-our .design:hover ~ .zero {
+	background: url('../img/page-our-design.webp') center / contain no-repeat;
+}
+/* page-our END */
+/* !main end  */
+
+
+/* !footer */
+
+/* !footer end */
