@@ -1,0 +1,170 @@
+/* Шрифты импорт из Google*/
+
+/* Шрифты из папки fonts */
+
+
+
+/*! CSS Стили общие*/
+[class*="__container"] {
+	max-width: 830px;
+   margin: 0 auto
+}
+body {
+	overflow: hidden;
+}
+/* !header */
+
+/* !header end */
+
+/* !main */
+
+.main {
+	min-height: 710px;
+	background: url('../img/background.jpg') 0 0 / 100%  no-repeat;
+	
+}
+.main__container {
+	height: 1000px; 
+}
+.car {
+	display: inline-block;
+	min-width: 600px;
+	position: relative;
+	top: 45%;
+	left: 25%;
+	padding: 102px;
+	/* исходник */
+	/* background: url('../img/train.png') 0 0 / cover no-repeat; */
+}
+.car img {
+	position: absolute;
+	max-width: 100%;
+}
+.car:active .body__picture{
+	left: 152px;
+}
+.body__picture {
+	padding: 15px;
+	top: -15px;
+	left: 2px;
+}
+.wheel img {
+	max-width: 101px;
+}
+.car:active .wheel__picture{
+	left: 589px;
+}
+.wheel__picture {
+	top: 106px;
+	left: 439px;
+}
+.wheel-rear img {
+	max-width: 166px;
+}
+.car:active .wheel-rear__picture{
+	left: 175px;
+}
+.wheel-rear__picture {
+	top: 109px;
+	left: 25px;
+}
+.bumper img {
+	max-width: 47px;
+}
+.car:active .bumper__picture{
+	left: 703px;
+}
+.bumper__picture {
+	top: 124px;
+	left: 553px;
+}
+.bumper-rear img {
+	max-width: 45px;
+}
+.car:active .bumper-rear__picture{
+	left: 150px;
+}
+.bumper-rear__picture {
+	top: 120px;
+	left: 0px;
+}
+.air-duct img {
+	opacity: 0.9;
+	max-width: 62px;
+}
+.car:active .air-duct__picture{
+	left: 241px;
+}
+.air-duct__picture {
+	top: 20px;
+	left: 91px;
+}
+.door-handle img{
+	max-width: 25px;
+}
+.car:active .door-handle__picture{
+	left: 397px;
+}
+.door-handle__picture {
+	top: 77px;
+	left: 247px;
+}
+.door img {
+	max-width: 174px;
+}
+.car:active .door__picture{
+	left: 389px;
+}
+.door__picture {
+	top: 70px;
+	left: 239px;
+}
+.lantern img{
+	max-width: 7px;
+}
+.car:active .lanter__picture{
+	left: 698px;
+}
+.lantern__picture {
+	top: 103px;
+	left: 548px;
+}
+.molding img{
+	max-width: 333px;
+}
+.car:active .molding__picture{
+	left: 224px;
+}
+.molding__picture {
+	top: 7px;
+	left: 74px;
+}
+.glass img {
+	opacity: 0.4;
+	max-width: 273px;
+}
+.car:active .glass__picture{
+	left: 300px;
+}
+.glass__picture {
+	top: 9px;
+	left: 150px;
+}
+
+/* .car__body::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	right: 54px;
+	bottom: 0px;
+	background: url('../img/body.png') 0 0 / 100% no-repeat;
+	width: 531px;
+	height: 190px;
+} */
+/* !main end  */
+
+
+/* !footer */
+
+
+/* !footer end */
