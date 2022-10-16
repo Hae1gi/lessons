@@ -1,0 +1,252 @@
+/* Шрифты импорт из Google*/
+
+/* Шрифты из папки fonts */
+
+
+
+/*! CSS Стили общие*/
+[class*="__container"] {
+	max-width: 1170px;
+   margin: 0 auto;
+}
+body {
+	overflow: hidden;
+}
+/* !header */
+
+/* !header end */
+
+/* !main */
+
+.car:before {
+	content: "";
+	display: inline-block;
+	width: 1920px;
+	height: 1050px;
+	background: url('../img/background.jpg') 0 0 / 100%  no-repeat;
+	position: relative;
+	top: -686px;
+	left: -770px;
+}
+.car-wrapper {
+	height: 890px;
+}
+.car {
+	display: inline-block;
+	min-width: 600px;
+	position: relative;
+	top: 45%;
+	left: 25%;
+	padding: 102px;
+}
+.car img {
+	position: absolute;
+	max-width: 100%;
+}
+/* Стул start */
+.car:active .car__picture-chair {
+	left: 421px;
+}
+.car__chair img {
+	max-width: 42px;
+}
+.car__picture-chair {
+	top: 22px;
+	left: 271px;
+}
+/* Стул end */
+/* Кузов start */
+.car:active .car__picture-body{
+	left: 152px;
+}
+.car__body img {
+	max-width: 600px;
+}
+.car__picture-body {
+	padding: 15px;
+	top: -15px;
+	left: 2px;
+}
+/* Кузов end */
+/* Колесо start */
+.car__wheel img {
+	max-width: 101px;
+}
+.car:active .car__picture-wheel{
+	left: 589px;
+}
+.car__picture-wheel {
+	top: 106px;
+	left: 439px;
+}
+/* Колесо end */
+/* Заднее колесо start */
+.car__wheel-rear img {
+	max-width: 166px;
+}
+.car:active .car__picture-wheel-rear {
+	left: 175px;
+}
+.car__picture-wheel-rear {
+	top: 109px;
+	left: 25px;
+}
+/* Заднее колесо end */
+/* Бампер start */
+.car__bumper img {
+	max-width: 47px;
+}
+.car:active .car__picture-bumper{
+	left: 703px;
+}
+.car__picture-bumper {
+	top: 124px;
+	left: 553px;
+}
+/* Бампер end */
+/* Задний бампер start */
+.car__bumper-rear img {
+	max-width: 45px;
+}
+.car:active .car__picture-bumper-rear{
+	left: 150px;
+}
+.car__picture-bumper-rear {
+	top: 120px;
+	left: 0px;
+}
+/* Задний бампер end */
+/* Воздухозаборник start */
+.car__air-duct img {
+	opacity: 0.9;
+	max-width: 62px;
+}
+.car:active .car__picture-air-duct {
+	left: 241px;
+}
+.car__picture-air-duct {
+	top: 20px;
+	left: 91px;
+}
+/* Воздухозаборник end */
+/* Дверная ручка start */
+.car__door-handle img{
+	max-width: 25px;
+}
+.car:active .car__picture-door-handle {
+	left: 397px;
+}
+.car__picture-door-handle {
+	top: 77px;
+	left: 247px;
+	z-index: 1;
+}
+/* Дверная ручка end */
+/* Дверь start */
+.car__door img {
+	max-width: 174px;
+}
+.car:active .car__picture-door {
+	left: 389px;
+}
+.car__picture-door {
+	top: 70px;
+	left: 239px;
+	z-index: 1;
+}
+/* Дверь end */
+/* Фонарь start */
+.car__lantern img{
+	max-width: 8px;
+}
+.car:active .car__picture-lantern {
+	left: 697px;
+}
+.car__picture-lantern {
+	top: 102px;
+	left: 547px;
+}
+/* Фонарь end */
+/* Молдинг start */
+.car__molding img{
+	max-width: 333px;
+}
+.car:active .car__picture-molding{
+	left: 224px;
+}
+.car__picture-molding {
+	top: 7px;
+	left: 74px;
+	z-index: 1;
+}
+/* Молдинг end */
+/* Стекло start */
+.car__glass img {
+	opacity: 0.4;
+	max-width: 273px;
+}
+.car:active .car__picture-glass {
+	left: 300px;
+}
+.car__picture-glass {
+	top: 9px;
+	left: 150px;
+	z-index: 1;
+}
+/* Стекло end*/
+.car__button {
+	position: absolute;
+	top: 227px;
+	left: -371px;
+}
+.button img{
+	max-width: 1034px;
+}
+.button__picture {
+	max-width: 100%;
+}
+
+.car-stiky {
+	padding: 10px 100px 0 100px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: auto;
+}
+.car-stiky img {
+	max-width: 100%;
+}
+.car-stiky > * {
+	position: sticky;
+	top: 0px;
+	margin-bottom:1000px;
+}
+
+.car-stiky__wheel-rear {
+	left: 21px;
+}
+.car-stiky__description {
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
+/* .car__body::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	right: 54px;
+	bottom: 0px;
+	background: url('../img/body.png') 0 0 / 100% no-repeat;
+	width: 531px;
+	height: 190px;
+} */
+/* !main end  */
+
+
+/* !footer */
+
+
+/* !footer end */
