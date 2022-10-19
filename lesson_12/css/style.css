@@ -1,0 +1,299 @@
+/* Шрифты импорт из Google*/
+
+/* Шрифты из папки fonts */
+
+
+
+/*! CSS Стили общие*/
+[class*="__container"] {
+	max-width: 1170px;
+   margin: 0 auto;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+/* !header */
+
+/* !header end */
+
+/* !main */
+.car {
+	position: relative;
+	top: 197px;
+	left: 10px;
+	height: 400px;
+	/* background: url('../img/train.png') 0 0 / cover no-repeat; */
+}
+.car::before {
+	content: "";
+	position: absolute;
+	top: -199px;
+	left: -360px;
+	height: 800px;
+	width: 1920px;
+	background: url('../img/background.jpg') 0 -202px / 100% no-repeat;
+}
+.car div {
+	display: inline-block;
+}
+/* !! Была попытка сделать машину в CSS */
+/* Колесо start */
+.wheel {
+	position: relative;
+	height: 174px;
+	width: 174px;
+}
+.wheel__tire {
+	width: 100%;
+	height: 100%;
+	border: 29px solid rgb(34, 31, 31);
+	border-radius: 50%;
+}
+.wheel__rim {
+	transform: translate(23.6%,-125%);
+	width: 68%;
+	height: 68%;
+	border-radius: 50%;
+	background-color: #bec6ac;
+}
+.rim {
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 50%;	
+}
+.wheel__rim-external {	
+	width: 100%;
+	height: 100%;
+}
+.wheel__rim-second {
+	transform: translate(6%,-109%);
+	width: 89%;
+	height: 89%;
+}
+.wheel__rim-third {
+	border: 3px double rgb(0, 0, 0);
+	transform: translate(15%,-236%);
+	width: 77%;
+	height: 77%;
+}
+.wheel__rim-internal {
+	transform: translate(41%,-455%);
+	width: 55%;
+	height: 55%;
+}
+.wheel__rim-center {
+	transform: translate(-135%,-2728%);
+	width: 10%;
+	height: 10%;
+	background-color: #333332;
+}
+.wheel__disk {
+	transform: translate(52%,-612%);
+	width: 49%;
+	height: 49%;
+}
+.disk {
+	border-radius: 26% 27% 0% 100% / 100% 100% 0% 0%;
+	border: 1px solid #000000;
+	background-color: #333332;
+	width: 15%;
+	height: 8%;
+}
+.wheel__disk-1 {
+	transform: translate(282%,-72%) rotate(180deg);
+}
+.wheel__disk-2 {
+	transform: translate(362%,89%) rotate(225deg);
+}
+.wheel__disk-3 {
+	transform: translate(317%,480%) rotate(270deg);
+}
+.wheel__disk-4 {
+	transform: translate(95%,875%) rotate(315deg);
+}
+.wheel__disk-5 {
+	transform: translate(-242%,1035%) rotate(360deg);
+}
+.wheel__disk-6 {
+	transform: translate(70%,645%) rotate(45deg);
+}
+.wheel__disk-7 {
+	transform: translate(-143%,250%) rotate(90deg);
+}
+.wheel__disk-8 {
+	transform: translate(-190%,-142%) rotate(135deg);
+}
+.wheel__disk-internal {
+	position: absolute;
+	transform: translate(-22px,-503px);
+	border-radius: 50%;
+	border: 12px dotted #333332;
+	width: 28%;
+	height: 28%;
+}
+/* Колесо END */
+/* Фонарь start */
+
+.lantern {
+	border-radius: 50%;
+	border: 2px solid #000000;
+	width: 14px;
+	height: 14px;
+	background-color: #ff8d37;
+	position: relative;
+	z-index: 1;
+}
+/* Фонарь end */
+/* Бампер start */
+
+.bumper {
+	font-size: 0;
+	border-radius: 7% 7% 11% 11% / 19% 19% 60% 60%;
+	background-color: #847676;
+	width: 81px;
+	height: 21px;
+}
+.bumper::after {
+	content: "";
+	position: absolute;
+	background-color: inherit;
+	width: 17px;
+	height: 12px;	
+	top: 23px;
+	left: 43px;
+	transform: skew(-23deg,0deg);
+}
+.bumper::before {
+	content: "";
+	background-color: inherit;
+	position: absolute;
+	width: 43px;
+	height: 37px;	
+	top: 22px;
+	left: 41px;
+	clip-path: polygon(0% 99%, 24% 94%, 42% 88%, 58% 77%, 68% 62%, 78% 41%, 83% 24%, 88% 0, 56% 0, 51% 22%, 44% 41%, 31% 65%, 15% 84%);
+}
+/* Бампер end */
+/* Воздух start */
+.air {
+	height: 11px;
+	font-size: 0;
+}
+.air__item {
+	border: 2px solid #000000;
+	background-color: #333332;
+	height: 100%;
+	width: 38px;
+	margin-right: 8px;
+}
+.air > *:last-child {
+	margin-right: 0px;
+}
+/* Воздух end */
+/* Стекло start */
+.glass {
+	opacity: 0.4;
+}
+/* Стекло end */
+/* Позиция */
+.car__wheel {
+	transform: translate(190px, 225px);
+}
+.car__wheel-rear-shadow {
+	transform: translate(-179px, -270px);
+	border: 8px solid #000000;
+	border-bottom: none;
+	border-left: none;
+	border-radius: 50% 50% 0% 100% / 100% 100% 0% 0%;
+	width: 200px;
+	height: 113px;
+}
+.car__wheel-rear {
+	transform: translate(692px, 224px) rotate(20deg);
+}
+.car__wheel-shadow {
+	transform: translate(297px, -272px);
+	border: 10px solid #000000;
+	border-bottom: none;
+	border-radius: 50% 50% 100% 0% / 100% 100% 0% 0%;
+	width: 201px;
+	height: 118px;
+}
+.car__lantern {
+	transform: translate(306px, -381px);
+}
+.car__arck-rear  {
+	transform: translate(-654px,-285px) rotate(10deg);
+}
+.car__air {
+	transform: translate(-595px,-487px) rotate(333deg);
+	transform-origin: left bottom;
+}
+.car__bumper {
+	transform: translate(167px,-332px);
+}
+.car__bumper-rear {
+	transform: translate(-991px,-342px) scale(-1, 1);
+}
+.car__body {
+	transform: translate(-77px,-633px) scale(0.826);
+}
+.car__door {
+	transform: translate(372px,-887px) scale(0.826);
+}
+.car__molding {
+	transform: translate(84px,-1242px) scale(0.826);
+}
+.car__glass {
+	transform: translate(244px,-1392px) scale(0.815);
+}
+.car__chair {
+	transform: translate(515px,-962px) scale(0.7);
+}
+.car__door-handle {
+	transform: translate(-166px,-1249px)
+}
+
+/* Train */
+.car:active {
+	transform: translate(40px,0px);
+}
+.car:active:before {
+	transform: translate(-40px,0px);
+}
+.car:active .car__wheel{
+	transform: translate(190px, 225px) rotate(120deg);
+}
+.car:active .car__wheel-rear{
+	transform: translate(692px, 224px) rotate(50deg);
+}
+.car:active:before {
+	transform: translate(-40px,0px);
+}
+.car__wheel:hover {
+	transform: translate(190px, 225px) scale(2);
+	position: relative;
+	z-index: 2;
+}
+.car__wheel-rear:hover {
+	transform: translate(692px, 224px) rotate(50deg);
+}
+.car__bumper:hover {
+	transform: translate(245px,-332px) scale(1, -1);
+}
+.car__lantern:hover {
+	transform-origin: right bottom;	
+	transform: translate(306px, -381px) rotate(45deg);
+}
+.car__door-handle:hover {
+	transform-origin: top right;
+	transform: translate3d(-168px,-1243px,0px) scale3d(0.826,0.826,1) rotate3d(1,1,1, 55deg);
+}
+
+/* !main end  */
+
+
+/* !footer */
+
+
+/* !footer end */
