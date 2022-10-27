@@ -1,0 +1,163 @@
+/* Шрифты импорт из Google*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Шрифты из папки fonts */
+
+
+
+/*! CSS Стили общие*/
+[class*="__container"] {
+	max-width: 1170px;
+   margin: 0 auto;
+}
+
+/* !header */
+
+/* !header end */
+
+/* !main */
+body {
+	overflow: hidden;
+}
+.main {
+	background-color: #000000;
+}
+.main__container {
+	min-height: 1000px;
+}
+.title {
+	display: inline-block;
+	width: 100%;
+	font-family: "Poppins";
+	font-weight: 300;
+	vertical-align: -450px;
+	text-align: center;
+	color: #32a895;
+	animation: scale 12s cubic-bezier(0.45, 0, 0.55, 1) 0.4s forwards;
+}
+.title__element { 
+	display: inline-block;
+	font-size: 0px;
+}
+.title__element span {
+	font-size: 130px;
+	letter-spacing: 10px;
+	opacity: 0;
+	display: inline-block;
+}
+.title__element *:first-of-type {
+	text-transform: capitalize;
+}
+.title__element:not(:last-child) {
+	margin-right: 68px;
+}
+.title__element *:first-child {
+	text-shadow: 0px -20px 100px #32a895;
+}
+/* T */
+.title__element--motion-the span:first-child {
+	animation: motion 1.8s ease-out 1.2s forwards;
+}
+/* H */
+.title__element--motion-the span:nth-child(2) {
+	animation: motion 2.2s ease-out 0.8s forwards;
+}
+/* E */
+.title__element--motion-the span:last-child {
+	animation: motion 1.6s ease-out 1.4s forwards;
+	transition: color 0.5s linear 0s;
+}
+.title__element--motion-the span:last-child:hover {
+	color: rgba(0, 0, 0, 0.62);
+}
+/* C */
+.title__element--motion-creative span:first-child {
+	animation: motion 2s cubic-bezier(1,1.62,0,-0.87) 1s forwards;
+	transition: opacity 0s ease 0s;
+}
+.title__element--motion-creative span:first-child:hover {
+	visibility: hidden;
+}
+/* R */
+.title__element--motion-creative span:nth-child(2) {
+	animation: motion 2.1s ease-out 0.9s forwards;
+	transition: transform 2s cubic-bezier(0.58, 0.33, 0.57, 1) 0s;
+}
+.title__element--motion-creative span:nth-child(2):hover {
+	transform: scale(1.2);
+}
+/* E */
+.title__element--motion-creative span:nth-child(3) {
+	animation: motion 1.7s cubic-bezier(0.000, 1.650, 1.000, -0.600) 1.3s forwards;
+}
+/* A */
+.title__element--motion-creative span:nth-child(4) {
+	animation: motion 1s ease-out 2s forwards;
+	transition: all 0.5s linear 0s;
+}
+.title__element--motion-creative span:nth-child(4):hover {
+	transform: scale(1.2);
+	text-shadow: 0px 0px 200px #32a895, 0px 0px 200px #32a895,0px 0px 200px #32a895;
+}
+/* T */
+.title__element--motion-creative span:nth-child(5) {
+	animation: motion 1.4s cubic-bezier(0,.55,.45,1) 1.6s forwards;
+}
+/* I */
+.title__element--motion-creative span:nth-child(6) {
+	animation: motion 1.3s ease-out 1.7s forwards;
+}
+/* V */
+.title__element--motion-creative span:nth-child(7) {
+	animation: motion 1.2s ease-out 1.8s forwards;
+	transition: all 0.3s cubic-bezier(0, 0, 0.2, 1) 0s;
+	transform-origin: bottom right; 
+}
+.title__element--motion-creative span:nth-child(7):hover {
+	transform: scale(0);
+}
+/* E */
+.title__element--motion-creative span:last-child {
+	animation: motion 3s cubic-bezier(0.12, 0, 0.39, 0) forwards;
+	transition: all 2s ease-out 0.2s;
+}
+.title__element--motion-creative span:last-child:hover {
+	transform: rotate(360deg);
+}
+
+@keyframes motion {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 2px #32a895;
+	}
+	50% {
+		opacity: 0.75;
+	}
+	75% {
+		text-shadow: 0px 0px 7px #ffffff, 0px 0px 10px #ffffff,0px 0px 21px #ffffff,0px 0px 42px #32a895;
+	}
+	85% {
+		text-shadow: 0px 0px 7px #ffffff, 0px 0px 10px #ffffff,0px 0px 21px #ffffff,0px 0px 42px #32a895,0px 0px 82px #32a895,0px 0px 92px #32a895,0px 0px 60px #32a895;
+	}
+	90% {
+		text-shadow: 0px 0px 7px #ffffff, 0px 0px 10px #ffffff,0px 0px 21px #ffffff,0px 0px 42px #32a895,0px 0px 82px #32a895,0px 0px 92px #32a895,0px 0px 102px;
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 0px 0px 7px #ffffff, 0px 0px 10px #ffffff,0px 0px 21px #ffffff,0px 0px 42px #32a895,0px 0px 82px #32a895,0px 0px 92px #32a895,0px 0px 102px #32a895,0px 0px 151px #32a895;
+	}
+}
+@keyframes scale {
+	0% {
+	}
+	100%{
+		transform: scale3d(1.1,1.1,1.5);
+	}
+}
+/* !main end  */
+
+
+/* !footer */
+
+
+/* !footer end */
